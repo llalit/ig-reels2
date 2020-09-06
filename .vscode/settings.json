@@ -1,0 +1,8 @@
+{
+    "editor.tabCompletion": "on",
+    "editor.stablePeek": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "prettier.useTabs": true,
+    "emmet.triggerExpansionOnTab": true
+}

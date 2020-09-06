@@ -1,0 +1,35 @@
+html{
+    scroll-snap-type:y mandatory;
+  }
+  
+  .app{
+    display:grid;
+    place-items:center;
+    height:100vh;
+    background-color: black;
+    color:white;
+  }
+  
+  .ig__logo{
+    height:12vh;
+  }
+  
+  .app__videos{
+    position: relative;
+    height: 65vh;
+    background-color: white;
+    width:70%;
+  }
+  
+.app__videos{
+    background-color: #fff;
+    height: 78vh;
+    width: 80%;
+    margin-top:0;
+    margin-bottom:30px;
+    max-height:1200px;
+    max-width:450px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    scroll-snap-type: y mandatory;
+  }

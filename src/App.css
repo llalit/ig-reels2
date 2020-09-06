@@ -1,0 +1,106 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.app{
+  display:grid;
+  place-items:center;
+  height:100vh;
+  top:0;
+  background-color: white;
+  color:white; 
+}
+
+.app__logo > h3 {
+  text-align: center;
+  color:black;
+  margin-top: -20px;
+  margin-bottom: -130px;
+}
+
+.ig__logo{
+  margin-top:-50px;
+  height:12vh;
+  padding-top:0;
+}
+
+.app__videos{
+  position:relative;
+  background-color: black;
+  height: 80vh;
+  width: 80%;
+  margin-bottom:30px;
+  max-width:450px;
+  max-height:1200px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  border-radius: 20px;
+ scroll-snap-type: y mandatory;
+}
+
+.app__videos::-webkit-scrollbar{
+  display:none;
+}
+.app__videos{
+  -ms-overflow-style: none;
+  scrollbar-width:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:540px){
+  html{
+  scroll-snap-type: y mandatory;
+}
+
+.app{
+  display:grid;
+  place-items:center;
+  height:100vh;
+  top:0;
+  background-color: white;
+  color:white; 
+}
+
+.app__logo > h3 {
+  display:none;
+}
+
+.ig__logo{
+  display:none;
+
+}
+
+.app__videos{
+  position:relative;
+  background-color: black;
+  height: 95vh;
+  margin-top: -25px;
+  width: 100%;
+  margin-bottom:30px;
+  max-width:600px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  border-radius: 20px;
+ scroll-snap-type: y mandatory;
+}
+
+.app__videos::-webkit-scrollbar{
+  display:none;
+}
+.app__videos{
+  -ms-overflow-style: none;
+  scrollbar-width:none;
+
+}
+
+}
